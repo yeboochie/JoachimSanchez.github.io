@@ -1,0 +1,311 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    background-color: transparent;
+    height: 60px;
+}
+
+.navbar-collapse{
+    margin-left: 65px;
+}
+.nav-item{
+margin-right: 70px;
+letter-spacing: 3px;
+font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color:black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .nav-link:hover{
+  font-weight: 500;
+}
+
+.navbar-brand .logo {
+    transition: transform 0.3s;
+    animation-play-state: paused;
+}
+
+.navbar-brand .logo:hover {
+    transform-origin: center;
+    animation: shake 0.6s ease-in-out infinite;
+}
+
+@keyframes shake {
+    0% { transform: scale(1.3) rotate(0deg); }
+    25% { transform: scale(1.3) rotate(-10deg); }
+    50% { transform: scale(1.3) rotate(5deg); }
+    75% { transform: scale(1.3) rotate(-10deg); }
+    100% { transform: scale(1.3) rotate(0deg); }
+  }
+
+
+
+.hero-carousel .carousel-inner .carousel-item img{
+    object-fit: cover;
+}
+
+.custom-carousel{
+max-width: 73%;
+margin: 0 auto;
+}
+
+
+.gradient-text {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 40px;
+  }
+
+#contact{
+  background-color: rgb(39, 39, 39);
+}
+
+.contact-icons{
+    display: flex;
+    flex-direction: space-between;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contact-icon img{
+    height: 30px;
+    margin-right: 12px;
+    margin-left:  20px;
+}
+
+
+.copycopy{
+    font-family: 'League Spartan', sans-serif;
+    font-size:  15px;
+    margin-top: 25px;
+    background: orange;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+  
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: rgb(39, 39, 39);
+}
+
+::-webkit-scrollbar-thumb{
+    background: orange;
+    border-radius: 20px;
+}
+
+
+
+#hero {
+    background-color: rgb(231, 231, 231);
+    
+  }
+  
+  .main-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; 
+    align-items: center;
+    
+  }
+  
+  .main-intro h1 {
+    font-size: 50px; 
+    font-weight: bold; 
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .main-intro h2 {
+    font-size: 30px; 
+    margin-bottom: 50px;  
+    font-family: "Roboto", sans-serif;
+}
+  
+  
+  .img-fluid {
+    max-width: 100%; 
+    height: auto; 
+   
+  }
+  
+  @media (max-width: 992px) {
+    /* Adjust the padding for smaller screens */
+    .main-intro {
+      padding-right: 0;
+      padding-bottom: 20px; /* Add padding below the text column */
+    }
+  }
+  
+  
+
+#more-about-me{
+    color:white; 
+    text-decoration: none; 
+    padding: 10px; 
+    background-color:  rgb(39, 39, 39); 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    display: inline-block; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  
+ 
+#more-about-me:hover {
+  background-color: orange; 
+  color: white;
+  }
+
+  #download-pdf{
+    color:white; 
+    text-decoration: none; 
+    padding: 10px; 
+    background-color:  rgb(39, 39, 39); 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    display: inline-block; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+
+  #download-pdf:hover {
+    background-color: orange; 
+    color: white;
+  }
+  
+  .line-container {
+    display: flex;
+    justify-content: center;
+    color:rgb(231, 231, 231) ;
+  }
+  
+  .line {
+    border-bottom: 4px solid;
+    border-radius: 10px;
+    width: 30%; 
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  
+  .line2{
+    border-bottom: 4px solid;
+    border-radius: 10px;
+    width: 30%; 
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  
+  .line3{
+    border-bottom: 4px solid;
+    border-radius: 10px;
+    width: 30%; 
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .second-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-start; 
+  }
+  
+  
+  .second-intro h1 {
+    font-size: 50px; 
+    font-weight: bold; 
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .second-intro h2 {
+    font-size: 17px; 
+    margin-bottom: 50px;  
+    font-family: "Helvetica", sans-serif;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+
+.card-h1{
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.prof1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  align-items: flex-start; 
+  gap: 1rem; 
+  margin: 0 auto; 
+  max-width: 50%;
+  margin-bottom: 3rem;
+}
+
+
+.prof2 {
+  background-color:rgb(39, 39, 39);
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+.prof2 h2{
+   font-family: 'Montserrat', sans-serif;
+   text-transform: uppercase;
+   font-size: 25px;
+}
+
+.prof2 p{
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+}
+
+
+
+
+.skill {
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+}
+
+.skill-level {
+  display: flex;
+  justify-content: center;
+}
+
+.level-fill {
+  width: 20px;
+  height: 5px;
+  background-color: #ddd;
+  margin-right: 5px;
+}
+
+.level-fill.filled {
+  background-color: orange; 
+}
+
+#portfolio{
+  margin-bottom: 100px;
+}
+
+.custom-image{
+  transform: scale(0.85);
+}
+
